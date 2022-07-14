@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodOrderApp.Views.manageData">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="manage Categories" HorizontalOptions="Center" VerticalOptions="Center"
+                    x:Name="ButtonCategories" Clicked="ButtonCategories_Clicked" />
+            
+            <Button Text="manage Products" HorizontalOptions="Center" VerticalOptions="Center"
+                    x:Name="ButtonProducts" Clicked="ButtonProducts_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
